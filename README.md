@@ -1,7 +1,7 @@
 # ctags-typescript
  Adds TypeScript support to ctags
 
-just run cmd:
+just run cmd in your project's root directory:
 
  ctags --langdef=MYTS --langmap=MYTS:.ts \
 --regex-MYTS="/^\s*(protected|private|public)?\s*(\w+)\s*:.*;.*$/\2/m,member/" \
